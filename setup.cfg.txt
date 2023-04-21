@@ -1,0 +1,45 @@
+[metadata]
+name = env
+version = attr: env.VERSION
+description='Python connectivity tools.'
+url='http://github.com/factioninc/env'
+author='Lou Sprimger'
+author_email='lou@louspringer.com'
+
+[options]
+zip_safe = False
+include_package_data = True
+packages = find:
+python_requires = >=3.10
+install_requires =
+    atlassian-python-api
+    boto3
+    certifi
+    ipykernel
+    jupyter-client
+    jupyter-console
+    jupyter-server
+    nbclassic
+    nbclient
+    nbconvert
+    nbformat
+    notebook
+    qtconsole
+    jira
+    numpy
+    pandas
+    numpy
+    matplotlib
+    python-dotenv
+    requests
+    urllib3
+    pynetbox
+    logicmonitor_data_sdk
+    pandasql
+    sqlalchemy<2.0
+    isi_sdk_9_1_0
+    junos-eznc
+    netapp-ontap
+    logicmonitor-sdk
+    tabulate
+    pynetbox
