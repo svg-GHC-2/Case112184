@@ -20,7 +20,7 @@
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",
     "severityThreshold": "high"
-  },
+  }, 
   "issueSettings": {
     "minSeverityLevel": "LOW",
     "issueType": "DEPENDENCY"
